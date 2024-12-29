@@ -69,7 +69,8 @@ word. */
 
 //--------------------------------------------------------------------------------
 
-typedef unsigned char byte;
+#define byte pp_byte
+typedef unsigned char pp_byte;
 
 class BitFile
 {
